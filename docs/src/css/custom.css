@@ -28,3 +28,46 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Global Font Sizes */
+h1 {
+  font-size: 36px !important;
+}
+
+h2 {
+  font-size: 28px !important;
+}
+
+h3 {
+  font-size: 24px !important;
+}
+
+h4 {
+  font-size: 20px !important;
+}
+
+h5 {
+  font-size: 18px !important;
+}
+
+h6 {
+  font-size: 16px !important;
+}
+
+p, li, span {
+  font-size: 16px !important;
+}
+
+/* Small text */
+.text-sm, small {
+  font-size: 14px !important;
+}
+
+/* Large text */
+.text-lg {
+  font-size: 18px !important;
+}
+
+.text-xl {
+  font-size: 20px !important;
+}
