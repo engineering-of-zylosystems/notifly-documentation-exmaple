@@ -53,6 +53,23 @@ const sidebars = {
         'notifly-campaign/campaign-dashboard',
       ],
     },
+    {
+      type: 'category',
+      label: '발송 채널',
+      items: [
+        'channels/app-push-notifications/index',
+        'channels/web-push-notifications/index',
+        'channels/messages/index',
+        'channels/kakao-friends-alimtalk/index',
+        'channels/email/index',
+        'channels/web-popup/index',
+        'channels/in-app-popup/index',
+      ],
+    },
+    'amplitude-integration/index',
+    'mixpanel-integration/index',
+    'cafe24-integration/index',
+    'webhook/index',
     'faq',
   ],
 };
