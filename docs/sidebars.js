@@ -66,8 +66,14 @@ const sidebars = {
         'channels/in-app-popup/index',
       ],
     },
-    'amplitude-integration/index',
-    'mixpanel-integration/index',
+    {
+      type: 'category',
+      label: '애널리틱스 연동',
+      items: [
+        'analytics/amplitude-integration/index',
+        'analytics/mixpanel-integration/index',
+      ],
+    },
     'cafe24-integration/index',
     'webhook/index',
     'faq',
