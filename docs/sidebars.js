@@ -53,33 +53,6 @@ const sidebars = {
         'notifly-campaign/campaign-dashboard',
       ],
     },
-    'app-push-notifications/index',
-    'web-push-notifications/index',
-    'messages/index',
-    'kakao-friends-alimtalk/index',
-    'email/index',
-    'web-popup/index',
-    'in-app-popup/index',
-    {
-      type: 'category',
-      label: 'Amplitude 연동',
-      items: ['amplitude-integration/index'],
-    },
-    {
-      type: 'category',
-      label: 'Mixpanel 연동',
-      items: ['mixpanel-integration/index'],
-    },
-    {
-      type: 'category',
-      label: '카페24 연동',
-      items: ['cafe24-integration/index'],
-    },
-    {
-      type: 'category',
-      label: '웹훅',
-      items: ['webhook/index'],
-    },
     'faq',
   ],
 };
