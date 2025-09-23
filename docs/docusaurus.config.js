@@ -54,25 +54,20 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
       }),
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'developer-docs',
+        path: 'developer-docs',
+        routeBasePath: 'developer-docs',
+        sidebarPath: './sidebars-developer.js',
+        editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+      },
     ],
   ],
 
@@ -94,7 +89,13 @@ const config = {
             position: 'left',
             label: '제품 문서',
           },
-          {to: '/blog', label: '개발 문서', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'developerSidebar',
+            position: 'left',
+            label: '개발 문서',
+            docsPluginId: 'developer-docs',
+          },
         ],
       },
       footer: {
