@@ -1,6 +1,7 @@
 ---
 slug: client-sdk
 title: Client SDK
+date: 2024-01-10
 authors: []
 tags: [sdk, client]
 ---

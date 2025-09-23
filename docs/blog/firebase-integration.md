@@ -1,6 +1,7 @@
 ---
 slug: firebase-integration
 title: Firebase 프로젝트 연동
+date: 2024-01-20
 authors: []
 tags: [firebase, integration]
 ---

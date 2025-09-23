@@ -1,6 +1,7 @@
 ---
 slug: google-tag-manager
 title: Client SDK - Google Tag Manager
+date: 2024-01-18
 authors: []
 tags: [gtm, google-tag-manager, web]
 ---

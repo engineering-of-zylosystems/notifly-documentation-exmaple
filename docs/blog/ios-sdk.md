@@ -1,6 +1,7 @@
 ---
 slug: ios-sdk
 title: Client SDK - iOS
+date: 2024-01-14
 authors: []
 tags: [ios, sdk, mobile]
 ---

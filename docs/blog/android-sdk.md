@@ -1,6 +1,7 @@
 ---
 slug: android-sdk
 title: Client SDK - Android
+date: 2024-01-15
 authors: []
 tags: [android, sdk, mobile]
 ---

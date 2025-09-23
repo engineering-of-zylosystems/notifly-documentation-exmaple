@@ -1,6 +1,7 @@
 ---
 slug: react-native-sdk
 title: Client SDK - React Native
+date: 2024-01-13
 authors: []
 tags: [react-native, sdk, mobile]
 ---

@@ -1,6 +1,7 @@
 ---
 slug: integration-test
 title: Client SDK - 연동 Test
+date: 2024-01-19
 authors: []
 tags: [test, integration, debugging]
 ---

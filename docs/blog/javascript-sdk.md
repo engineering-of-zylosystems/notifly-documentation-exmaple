@@ -1,6 +1,7 @@
 ---
 slug: javascript-sdk
 title: Client SDK - Javascript
+date: 2024-01-17
 authors: []
 tags: [javascript, sdk, web]
 ---

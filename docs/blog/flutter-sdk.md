@@ -1,6 +1,7 @@
 ---
 slug: flutter-sdk
 title: Client SDK - Flutter
+date: 2024-01-16
 authors: []
 tags: [flutter, sdk, mobile]
 ---
