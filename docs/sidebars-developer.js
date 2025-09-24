@@ -23,9 +23,12 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '심화 기능',
-      link: null,
+      label: '심화 연동',
       collapsible: true,
+      link: {
+        type: 'doc',
+        id: 'advanced/index',
+      },
       items: [
         'advanced/push-notification-icon',
         'advanced/push-notification-consent',

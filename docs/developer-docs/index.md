@@ -18,8 +18,8 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
     icon="📱"
   />
   <DocCard
-    title="심화 기능"
-    description="심화 기능 가이드"
+    title="심화 연동"
+    description="심화 연동 가이드"
     href="/developer-docs/advanced/push-notification-icon"
     icon="📱"
   />
