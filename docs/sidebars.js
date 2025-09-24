@@ -75,6 +75,10 @@ const sidebars = {
       ],
     },
     {
+  type: 'category',
+  label: '통합 연동',
+  items: [
+    {
       type: 'category',
       label: '애널리틱스 연동',
       items: [
@@ -84,7 +88,9 @@ const sidebars = {
     },
     'cafe24-integration/index',
     'webhook/index',
-    'faq',
+  ],
+},
+'faq',
   ],
 };
 

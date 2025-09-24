@@ -45,4 +45,4 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
 
 ---
 
-일반 사용자 가이드가 필요하다면 [여기서 확인하세요](/docs/notifly-user-guide).
+노티플라이 일반 사용 가이드가 필요하다면 [여기서 확인하세요](/docs/notifly-user-guide).
