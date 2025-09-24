@@ -19,21 +19,29 @@ const sidebars = {
   tutorialSidebar: [
     'notifly-user-guide',
     {
+  type: 'category',
+  label: '유저 여정',
+  link: {
+    type: 'doc',
+    id: 'user-journey/index', // 👈 this points to docs/user-journey/index.md
+  },
+  items: [
+    'user-journey/getting-started',
+    'user-journey/basic-settings',
+    'user-journey/status-and-modification',
+    {
       type: 'category',
-      label: '유저 여정',
-      items: [
-        'maintenance/getting-started',
-        'maintenance/basic-settings',
-        'maintenance/status-and-modification',
-        {
-          type: 'category',
-          label: '유저 여정 노드',
-          items: ['maintenance/user-journey-nodes/index'],
-        },
-        'maintenance/statistics',
-        'maintenance/utilization',
-      ],
+      label: '유저 여정 노드',
+      link: {
+        type: 'doc',
+        id: 'user-journey/user-journey-nodes/index', // optional index page for subcategory
+      },
+      items: [],
     },
+    'user-journey/statistics',
+    'user-journey/utilization',
+  ],
+},
     {
       type: 'category',
       label: '노티플라이 캠페인',

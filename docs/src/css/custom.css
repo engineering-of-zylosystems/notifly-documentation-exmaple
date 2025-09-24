@@ -1,12 +1,7 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url('https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css');
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #0044CC;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -54,8 +49,8 @@ h6 {
   font-size: 16px !important;
 }
 
-p, li, span {
-  font-size: 16px !important;
+p, li, span, thead, tbody {
+  font-size: 14px !important;
 }
 
 /* Small text */
@@ -70,4 +65,160 @@ p, li, span {
 
 .text-xl {
   font-size: 20px !important;
+}
+
+.container {
+  padding-left: 60px;
+}
+
+/* Optional: make table cells look cleaner */
+.markdown table th,
+.markdown table td {
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+/* Font: Pretendard for body */
+:root {
+  --ifm-font-family-base: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+}
+
+/* Font: Courier (monospace) for code */
+:root {
+  --ifm-font-family-monospace: 'Courier New', Courier, monospace;
+}
+
+/* Apply fonts */
+body {
+  font-family: var(--ifm-font-family-base);
+}
+
+code, pre {
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.infobox {
+  width: 420px; /* adjust to fit container */
+  border-radius: 24px;
+  overflow: hidden;         /* ensures curved corners apply to both halves */
+  border: 1px solid #0044cc;
+  font-family: Pretendard, sans-serif;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.infobox p {
+  margin: 0.3rem;
+}
+
+/* top half */
+.infobox__header {
+  background: #fff;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0044cc;
+}
+
+.infobox__body {
+  background: #0044cc; /* brand blue */
+  padding: 1rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+.li {
+  margin-block-end: 0 !important;
+}
+
+.table {
+  width: 100% !important;      
+  table-layout: fixed;         
+  border-collapse: collapse;  
+}
+
+.table th,
+.table td {
+  word-wrap: break-word;     
+  white-space: normal;
+}
+
+.theme-doc-markdown table,
+.theme-doc-markdown .table-container > table,
+.markdown table,
+article table {
+  display: table !important;  
+  width: 100% !important;     
+  max-width: 100% !important;
+  table-layout: fixed;       
+  border-collapse: collapse;
+  border: 1px solid #0044CC !important;
+}
+
+
+
+:root {
+  /* Default is something like 1rem, you can adjust */
+  --ifm-list-margin: 0rem;
+  --ifm-list-left-padding: 1.25rem;
+}
+
+.figure p {
+  font-size: 0.85rem !important;
+  color: #0044cc;
+  text-align: center !important;
+  margin-top: 0.4rem;
+}
+
+.figure {
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 24px;        /* ensures curved corners apply to both halves */
+  border: 1px solid #0044cc;
+}
+.theme-doc-markdown table {
+  width: 100%;
+  table-layout: fixed;          /* consistent column widths */
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 20px;
+  overflow: hidden;             /* clips header corners */
+  outline: 1px solid #0044CC;   /* outer border */
+  outline-offset: -1px;
+  margin: 1.5rem 0;
+  font-family: Pretendard, sans-serif;
+  font-size: 0.95rem;
+  color: #000;
+  box-sizing: border-box;
+}
+
+/* Header */
+.theme-doc-markdown thead tr {
+  background: #0044CC;
+  color: #fff;
+}
+.theme-doc-markdown th {
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 16px;
+  border: none;
+  border-right: 1px solid #fff; /* white divider only */
+}
+.theme-doc-markdown th:last-child {
+  border-right: none;
+}
+
+/* Body cells */
+.theme-doc-markdown tbody td {
+  background: #fff;
+  padding: 12px 16px;
+  border-right: 1px solid #0044CC;
+  border-bottom: 1px solid #0044CC;
+}
+.theme-doc-markdown tbody td:last-child {
+  border-right: 0;
+}
+.theme-doc-markdown tbody tr:last-child td {
+  border-bottom: 0;
 }
