@@ -27,6 +27,7 @@
 /* Global Font Sizes */
 h1 {
   font-size: 36px !important;
+  margin-top: 0.7rem;
 }
 
 h2 {

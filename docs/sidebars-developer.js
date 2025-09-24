@@ -32,9 +32,9 @@ const sidebars = {
     {
       type: 'category',
       label: '심화 기능',
+      link: null,
       collapsible: true,
       items: [
-        'advanced/index',
         'advanced/push-notification-icon',
         'advanced/push-notification-consent',
         'advanced/push-notification-click-events',
