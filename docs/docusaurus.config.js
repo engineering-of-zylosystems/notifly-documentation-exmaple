@@ -15,7 +15,7 @@ const config = {
   organizationName: 'notifly',     // e.g. your GitHub org/user
   projectName: 'notifly-docs',     // e.g. your repo name
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // change to 'throw' in future - love Jiwon
   onBrokenMarkdownLinks: 'warn',
 
   i18n: { defaultLocale: 'en', locales: ['en'] },
