@@ -35,13 +35,13 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
   <DocCard
     title="유저 여정"
     description="시나리오 기반 메시지 자동화 시작하기"
-    href="/docs/journey/getting-started"
+    href="/docs/user-journey/getting-started"
     icon="🔄"
   />
   <DocCard
     title="노티플라이 캠페인"
     description="타겟팅된 캠페인 메시지 생성 및 관리"
-    href="/docs/campaign/getting-started"
+    href="/docs/notifly-campaign/getting-started"
     icon="📢"
   />
 </DocCardGrid>
@@ -54,13 +54,13 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
   <DocCard
     title="발송 채널"
     description="앱 푸시, 웹 푸시, 문자, 이메일, 카카오 등 다양한 채널 활용"
-    href="/docs/channels/app-push"
+    href="/docs/channels/app-push-notifications"
     icon="📱"
   />
   <DocCard
     title="애널리틱스 연동"
     description="Amplitude, Mixpanel 등 데이터 분석 도구와 연결"
-    href="/docs/analytics/overview"
+    href="/docs/analytics/amplitude-integration"
     icon="📊"
   />
 </DocCardGrid>
@@ -73,7 +73,7 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
   <DocCard
     title="개발자 가이드"
     description="SDK 설치, API 문서 및 예제 코드"
-    href="/docs/developer/sdk-installation"
+    href="/developer-docs"
     icon="💻"
   />
   <DocCard

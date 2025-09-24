@@ -79,7 +79,7 @@ const config = {
         {
           title: 'Docs',
           items: [
-            { label: '제품 문서', to: '/docs' },                // ✅ safer than /docs/intro
+            { label: '제품 문서', to: '/docs/notifly-user-guide' },
             { label: '개발 문서', to: '/developer-docs' },
           ],
         },

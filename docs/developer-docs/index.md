@@ -13,7 +13,7 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
   <DocCard
     title="Client SDK"
     description="다양한 플랫폼용 클라이언트 SDK"
-    href="/developer-docs/client-sdk"
+    href="/developer-docs/sdk/client-sdk"
     icon="📱"
   />
   <DocCard

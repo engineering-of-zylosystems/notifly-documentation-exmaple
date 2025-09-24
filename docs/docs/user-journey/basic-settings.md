@@ -79,7 +79,7 @@ sidebar_position: 2
 - 각 메시지 노드의 전환도 동일 기준으로 설정할 수 있습니다.
 - 세션별 최대 1회만 측정할 수 있습니다. (중복 제거)
 
-자세한 전환 성과 측정 기준은 [유저 여정 통계 가이드](docs/docs/user-journey/statistics.md)를 참고해주세요.
+자세한 전환 성과 측정 기준은 [유저 여정 통계 가이드](/docs/user-journey/statistics)를 참고해주세요.
 
 ## 유저 여정 상태
 
