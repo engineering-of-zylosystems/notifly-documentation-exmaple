@@ -8,7 +8,7 @@ const config = {
   favicon: 'img/favicon.ico',
   future: { v4: true },
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://zylo-sample.netlify.app/',
   baseUrl: '/',
 
   // TODO: set these to your real repo
