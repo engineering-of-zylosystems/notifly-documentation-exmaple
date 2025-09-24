@@ -20,7 +20,7 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
   <DocCard
     title="고급 기능"
     description="고급 기능 가이드"
-    href="/developer-docs/advanced"
+    href="/developer-docs/push-notification-icon"
     icon="📱"
   />
   <DocCard
@@ -45,4 +45,4 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
 
 ---
 
-일반 사용자 가이드가 필요하다면 [여기서 확인하세요](/docs/index).
+일반 사용자 가이드가 필요하다면 [여기서 확인하세요](/docs/notifly-user-guide).
