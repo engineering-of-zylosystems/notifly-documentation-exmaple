@@ -7,11 +7,19 @@ sidebar_position: 1
 import DocCard from '@site/src/components/DocCard';
 import DocCardGrid from '@site/src/components/DocCardGrid';
 
+<figure>
+  <img
+    src="/img/notifly.png"
+    alt=""
+    style={{ maxWidth: "60%", height: "auto", display: "block", margin: "0 auto" }}
+  />
+</figure>
+
 노티플라이는 웹/모바일에서 사용자 행동에 따라 맞춤형 알림을 보낼 수 있는 통합 메시징 플랫폼입니다.
 
 실시간, 멀티 채널, 고도화된 유저 여정으로 더 높은 전환을 달성할 수 있습니다.
 
-## 주요 특징
+## 주요 기능
 
 - **다채널 메시징**: 푸시 알림, 이메일, SMS, 인앱 메시지
 - **고급 타겟팅**: 사용자 세그먼트 및 행동 기반 타겟팅
@@ -19,8 +27,10 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
 - **실시간 분석**: 캠페인 성과 및 사용자 참여도 추적
 - **A/B 테스트**: 메시지 최적화를 위한 실험 기능
 
+
 ## 시작하기
 
+<div className="doccards-blue">
 <DocCardGrid cols={2}>
   <DocCard
     title="유저 여정"
@@ -35,9 +45,11 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
     icon="📢"
   />
 </DocCardGrid>
+</div>
 
 ## 기능 가이드
 
+<div className="doccards-blue">
 <DocCardGrid cols={2}>
   <DocCard
     title="발송 채널"
@@ -52,9 +64,11 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
     icon="📊"
   />
 </DocCardGrid>
+</div>
 
 ## 개발자 리소스
 
+<div className="doccards-blue">
 <DocCardGrid cols={2}>
   <DocCard
     title="개발자 가이드"
@@ -69,5 +83,6 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
     icon="❓"
   />
 </DocCardGrid>
+</div>
 
 

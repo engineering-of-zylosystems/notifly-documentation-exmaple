@@ -222,3 +222,68 @@ article table {
 .theme-doc-markdown tbody tr:last-child td {
   border-bottom: 0;
 }
+
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  background-color: #0044CC; /* 파란 배경 */
+  color: #fff !important;   /* 흰 글자 */
+  border-radius: 16px;      /* pill 모양 */
+  padding: 4px 12px;        /* 여백 */
+  font-weight: 500;         /* 조금 더 강조 */
+  text-decoration: none;    /* 밑줄 제거 */
+}
+
+/* Scope to your wrapper so we don't affect other cards site-wide */
+.doccards-blue a[class^="card_"],
+.doccards-blue a[class*=" card_"] {
+  display: block;
+  background: #0044CC;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #0044CC;
+  border-radius: 16px;
+  box-shadow: none;
+  transition: background .2s ease, transform .12s ease, box-shadow .2s ease;
+}
+
+/* Inner padding: either on the anchor or the content div */
+.doccards-blue a[class^="card_"],
+.doccards-blue :is([class^="cardContent_"], [class*=" cardContent_"]) {
+  padding: 16px;
+}
+
+/* Header row (icon + title) */
+.doccards-blue :is([class^="cardHeader_"], [class*=" cardHeader_"]) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+/* Title & description */
+.doccards-blue :is([class^="cardTitle_"], [class*=" cardTitle_"]) {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+}
+.doccards-blue :is([class^="cardDescription_"], [class*=" cardDescription_"]) {
+  color: rgba(255,255,255,.92);
+  font-size: .92rem;
+  margin: 0;
+}
+
+/* Icon size (emoji or svg) */
+.doccards-blue :is([class^="cardIcon_"], [class*=" cardIcon_"]) {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+/* Hover / focus */
+.doccards-blue a[class^="card_"]:hover,
+.doccards-blue a[class^="card_"]:focus-visible {
+  background: #0039b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 68, 204, .25);
+  outline: none;
+}

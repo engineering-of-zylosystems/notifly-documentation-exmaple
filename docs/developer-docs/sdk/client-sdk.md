@@ -13,31 +13,31 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
   <DocCard
     title="iOS SDK"
     description="Native iOS integration with APNs"
-    href="/developer-docs/ios-sdk"
+    href="/developer-docs/sdk/ios-sdk"
     icon="📱"
   />
   <DocCard
     title="Android SDK"
     description="Native Android integration with Firebase"
-    href="/developer-docs/android-sdk"
+    href="/developer-docs/sdk/android-sdk"
     icon="🤖"
   />
   <DocCard
     title="React Native SDK"
     description="Cross-platform mobile development"
-    href="/developer-docs/react-native-sdk"
+    href="/developer-docs/sdk/react-native-sdk"
     icon="⚛️"
   />
   <DocCard
     title="Flutter SDK"
     description="Cross-platform mobile development"
-    href="/developer-docs/flutter-sdk"
+    href="/developer-docs/sdk/flutter-sdk"
     icon="💙"
   />
   <DocCard
     title="JavaScript SDK"
     description="Web browser integration"
-    href="/developer-docs/javascript-sdk"
+    href="/developer-docs/sdk/javascript-sdk"
     icon="🌐"
   />
   <DocCard
