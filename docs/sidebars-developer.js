@@ -23,14 +23,6 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Google Tag Manager',
-      collapsible: true,
-      items: [
-        'google-tag-manager',
-      ],
-    },
-    {
-      type: 'category',
       label: '심화 기능',
       link: null,
       collapsible: true,
@@ -41,6 +33,14 @@ const sidebars = {
         'advanced/push-notification-interceptor',
         'advanced/inapp-popup-event-listener',
         'advanced/webview',
+      ],
+    },
+        {
+      type: 'category',
+      label: 'Google Tag Manager',
+      collapsible: true,
+      items: [
+        'google-tag-manager',
       ],
     },
     'http-api',
