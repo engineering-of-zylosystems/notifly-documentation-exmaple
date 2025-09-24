@@ -9,6 +9,7 @@ Notifly SDK와 API를 사용하여 앱과 웹사이트에 푸시 알림 기능�
 import DocCard from '@site/src/components/DocCard';
 import DocCardGrid from '@site/src/components/DocCardGrid';
 
+<div className="doccards-blue">
 <DocCardGrid cols={2}>
   <DocCard
     title="Client SDK"
@@ -23,6 +24,7 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
     icon="🔗"
   />
 </DocCardGrid>
+</div>
 
 ## 시작하기
 

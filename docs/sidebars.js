@@ -16,14 +16,14 @@
  */
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  tutorialSidebar: [
+  productSidebar: [
     'notifly-user-guide',
     {
   type: 'category',
   label: '유저 여정',
   link: {
     type: 'doc',
-    id: 'user-journey/index', // 👈 this points to docs/user-journey/index.md
+    id: 'user-journey/index',
   },
   items: [
     'user-journey/getting-started',

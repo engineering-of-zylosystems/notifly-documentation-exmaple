@@ -60,7 +60,7 @@ const config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',   // from sidebars.js
+          sidebarId: 'productSidebar',   // from sidebars.js
           position: 'left',
           label: '노티플라이 가이드',
         },
