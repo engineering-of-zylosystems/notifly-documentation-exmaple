@@ -19,29 +19,29 @@ const sidebars = {
   productSidebar: [
     'notifly-user-guide',
     {
-  type: 'category',
-  label: '유저 여정',
-  link: {
-    type: 'doc',
-    id: 'user-journey/index',
-  },
-  items: [
-    'user-journey/getting-started',
-    'user-journey/basic-settings',
-    'user-journey/status-and-modification',
-    {
       type: 'category',
-      label: '유저 여정 노드',
+      label: '유저 여정',
       link: {
         type: 'doc',
-        id: 'user-journey/user-journey-nodes/index', // optional index page for subcategory
+        id: 'user-journey/index',
       },
-      items: [],
+      items: [
+        'user-journey/getting-started',
+        'user-journey/basic-settings',
+        'user-journey/status-and-modification',
+        {
+          type: 'category',
+          label: '유저 여정 노드',
+          link: {
+            type: 'doc',
+            id: 'user-journey/user-journey-nodes/index',
+          },
+          items: [],
+        },
+        'user-journey/statistics',
+        'user-journey/utilization',
+      ],
     },
-    'user-journey/statistics',
-    'user-journey/utilization',
-  ],
-},
     {
       type: 'category',
       label: '노티플라이 캠페인',
@@ -86,7 +86,6 @@ const sidebars = {
     'webhook/index',
     'faq',
   ],
-  
 };
 
 export default sidebars;
