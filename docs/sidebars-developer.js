@@ -35,6 +35,12 @@ const sidebars = {
       collapsible: true,
       items: [
         'advanced/index',
+        'advanced/push-notification-icon',
+        'advanced/push-notification-consent',
+        'advanced/push-notification-click-events',
+        'advanced/push-notification-interceptor',
+        'advanced/inapp-popup-event-listener',
+        'advanced/webview',
       ],
     },
     'http-api',
