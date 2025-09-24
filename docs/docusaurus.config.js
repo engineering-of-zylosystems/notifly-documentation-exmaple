@@ -62,14 +62,14 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'productSidebar',   // from sidebars.js
           position: 'left',
-          label: '노티플라이 가이드',
+          label: '제품 가이드',
         },
         {
           type: 'docSidebar',
           docsPluginId: 'developer-docs', 
           sidebarId: 'developerSidebar',  // from sidebars-developer.js
           position: 'left',
-          label: '개발/연동 가이드',
+          label: '개발 가이드',
         },
       ],
     },

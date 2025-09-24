@@ -18,9 +18,9 @@ import DocCardGrid from '@site/src/components/DocCardGrid';
     icon="📱"
   />
   <DocCard
-    title="고급 기능"
-    description="고급 기능 가이드"
-    href="/developer-docs/push-notification-icon"
+    title="심화 기능"
+    description="심화 기능 가이드"
+    href="/developer-docs/advanced/push-notification-icon"
     icon="📱"
   />
   <DocCard
