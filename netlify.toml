@@ -1,0 +1,13 @@
+# netlify.toml
+[build]
+  command = "yarn build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# (옵션) 깨끗한 URL, 캐시 설정 등 필요시 추가
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

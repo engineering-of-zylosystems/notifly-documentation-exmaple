@@ -14,83 +14,102 @@
 
  @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
  */
+// sidebars.js
 const sidebars = {
-  // By default, Docusaurus generates a sidebar from the docs folder structure
   productSidebar: [
     'notifly-user-guide',
     {
       type: 'category',
-      label: '유저 여정',
-      link: {
-        type: 'doc',
-        id: 'user-journey/index',
-      },
+      label: '튜토리얼',
+      link: { type: 'doc', id: 'tutorial/index' },
       items: [
-        'user-journey/getting-started',
-        'user-journey/basic-settings',
-        'user-journey/status-and-modification',
-        {
-          type: 'category',
-          label: '유저 여정 노드',
-          link: {
-            type: 'doc',
-            id: 'user-journey/user-journey-nodes/index',
-          },
-          items: [],
-        },
-        'user-journey/statistics',
-        'user-journey/utilization',
+        'tutorial/a-min-kakao-alarm-talk-setting',
+        'tutorial/a-min-marketing-funnel-creation',
       ],
     },
     {
       type: 'category',
-      label: '노티플라이 캠페인',
+      label: '하우 투 가이드',
+      // link: { type: 'doc', id: 'how-to/index' },
       items: [
-        'notifly-campaign/getting-started',
         {
           type: 'category',
-          label: '메시지 개인화',
-          items: ['notifly-campaign/message-personalization/index'],
+          label: '유저 여정 설정하기',
+          link: { type: 'doc', id: 'user-journey/index' },
+          items: [
+            'user-journey/getting-started',
+            'user-journey/basic-settings',
+            'user-journey/status-and-modification',
+            {
+              type: 'category',
+              label: '유저 여정 노드',
+              link: { type: 'doc', id: 'user-journey/user-journey-nodes/index' },
+              items: [],
+            },
+            'user-journey/statistics',
+            'user-journey/utilization',
+          ],
         },
         {
           type: 'category',
-          label: '캠페인 발송 대상 설정',
-          items: ['notifly-campaign/campaign-target-settings/index'],
+          label: '캠페인 실행하기',
+          items: [
+            'notifly-campaign/getting-started',
+            {
+              type: 'category',
+              label: '메시지 개인화',
+              items: ['notifly-campaign/message-personalization/index'],
+            },
+            {
+              type: 'category',
+              label: '캠페인 발송 대상 설정',
+              items: ['notifly-campaign/campaign-target-settings/index'],
+            },
+            'notifly-campaign/ab-testing',
+            'notifly-campaign/campaign-dashboard',
+          ],
         },
-        'notifly-campaign/ab-testing',
-        'notifly-campaign/campaign-dashboard',
+        {
+          type: 'category',
+          label: '발송 채널 선택하기',
+          items: [
+            'channels/app-push-notifications/index',
+            'channels/web-push-notifications/index',
+            'channels/messages/index',
+            'channels/kakao-friends-alimtalk/index',
+            'channels/email/index',
+            'channels/web-popup/index',
+            'channels/in-app-popup/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '통합 연동하기',
+          items: [
+            {
+              type: 'category',
+              label: '애널리틱스 연동',
+              items: [
+                'analytics/amplitude-integration/index',
+                'analytics/mixpanel-integration/index',
+              ],
+            },
+            'cafe24-integration/index',
+            'webhook/index',
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: '발송 채널',
+      label: '학습 자료',
+      // link: { type: 'doc', id: 'background/index' },
       items: [
-        'channels/app-push-notifications/index',
-        'channels/web-push-notifications/index',
-        'channels/messages/index',
-        'channels/kakao-friends-alimtalk/index',
-        'channels/email/index',
-        'channels/web-popup/index',
-        'channels/in-app-popup/index',
+        'campaign/what-is-campaign',
+        'campaign/a-b-test-utilization',
       ],
     },
-    {
-  type: 'category',
-  label: '통합 연동',
-  items: [
-    {
-      type: 'category',
-      label: '애널리틱스 연동',
-      items: [
-        'analytics/amplitude-integration/index',
-        'analytics/mixpanel-integration/index',
-      ],
-    },
-    'cafe24-integration/index',
-    'webhook/index',
-  ],
-},
-'faq',
+    'faq',
   ],
 };
 

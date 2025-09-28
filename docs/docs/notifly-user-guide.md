@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 노티플라이 시작하기
+# 안녕하세요! 노티플라이입니다.
 
 import DocCard from '@site/src/components/DocCard';
 import DocCardGrid from '@site/src/components/DocCardGrid';
