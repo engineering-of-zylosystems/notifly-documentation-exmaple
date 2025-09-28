@@ -1,13 +1,8 @@
-# netlify.toml
+# netlify.toml (repo 루트)
 [build]
-  command = "yarn build"
-  publish = "build"
+base = "docs"          # ← 여기 중요! docs로 이동한 뒤
+command = "yarn build" # docs/package.json의 build 스크립트 실행
+publish = "build"      # docs/build 를 자동으로 publish 함
 
 [build.environment]
-  NODE_VERSION = "18"
-
-# (옵션) 깨끗한 URL, 캐시 설정 등 필요시 추가
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
+NODE_VERSION = "20"
