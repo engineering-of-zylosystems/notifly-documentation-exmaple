@@ -102,7 +102,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '학습 자료',
+      label: '레퍼런스',
       // link: { type: 'doc', id: 'background/index' },
       items: [
         'campaign/what-is-campaign',
